@@ -1,6 +1,6 @@
 # Clone of Bitwarden's Create Account Page
 
-##Free Coding Bootcamp Assignment
+## Free Coding Bootcamp Assignment
 Task:
 * Pick a web page to recreate
 * HTML and CSS only
