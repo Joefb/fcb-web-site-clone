@@ -1,6 +1,8 @@
 /* Target Elements */
 body {
   background-color: #ecf0f5;
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif, 
+  "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 }
 
 p {
@@ -12,23 +14,25 @@ label {
   color: #151616;
   display: block;
   padding: 10px 0px 10px 0px;
-  font-size: 18px;
+  font-size: 14px;
 }
 
 input {
-  width: 325px;
-  height: 30px;
-  background-color: #ecf0f5;
-  border-radius: 2px;
-  border-color: #d3d7db;
+  width: 360px;
+  height: 28px;
+  background-color: #FBFBFB;
+  border-radius: 5px;
+  border-color: #CDD4DA;
   border-style: solid;
+  border-width: .5px;
   outline-color: #75a0f0;
 }
 
 hr {
-  width: 325px;
+  width: 360px;
+  margin-top: 20px;
   margin-left: 0px;
-  
+  border-top: #CDD4DA
   
 }
 
@@ -36,8 +40,8 @@ hr {
 /* Target By Class */
 
 .header {
-  margin: 40px auto 15px auto;
-  font-size: 25px;
+  margin: 40px auto 20px auto;
+  font-size: 18px;
   text-align: center;
 
 }
@@ -49,45 +53,53 @@ hr {
 
 .main-container {
   margin: auto;
-  width: 346px;
+  width: 375px;
   padding: 10px;
   background-color: #ffffff;
   display: block;
   border-radius: 2px;
-  font-size: 14px;
+  font-size: 13px;
+  border-style: solid;
+  border-color: #CDD4DA;
+  border-width: .5px;
 }
 
 .fa-eye {
   color: #175ddc;
   padding: 10px;
+  font-size: 17px;
 }
 
 .footer-container{
   margin: auto;
-  margin-top: 35px;
+  margin-top: 45px;
   margin-bottom: 40px;
   width: 15%;
   text-align: center;
-  font-size: 15px;
+  font-size: 16px;
 }
 
 .btn {
-  width: 162.5px;
+  width: 49%;
   height: 33px;
   border-radius: 5px;
-  font-size: 17px;
+  font-size: 14px;
   border-style: solid;
+  margin-top: 10px;
+  
 }
+
 
 /* Target By Ids */
 #pass-input, #re-type-input {
-  width: 280px;
+  width: 315px;
 }
 
 #pass-str {
-  width: 290px;
+  width: 322px;
   height: 30px;
   display: block;
+  
 }
 
 #submit-btn {
@@ -96,9 +108,21 @@ hr {
   border-style: none;
 }
 
+#submit-btn:hover {
+  background-color: #2E2ABA;
+}
+
 #cancel-btn {
   background-color: #fbfbfb;
   color: #3e3f41;
-  border-color: #6d6d6d;
-  
+  border-color: #CDD4DA;
+  border-width: .5px;
 }
+
+#cancel-btn:hover {
+  background-color: #CDD4DA;
+
+}
+
+
+
